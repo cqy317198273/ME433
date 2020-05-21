@@ -63,16 +63,16 @@ int main() {
     
     __builtin_enable_interrupts();
        
-    unsigned char btn;
+    unsigned char a;
     
     while (1) {
         _CP0_SET_COUNT(0);
         while(_CP0_GET_COUNT() < 4800000/2) {;} //let green led blink
         LATAbits.LATA4 = !LATAbits.LATA4;
         
-        btn = readExpander(0b01000000,0b10011)%2;
+        a = readExpander(0b01000000,0b10011)%2;
         
-        if (!btn){
+        if (!a){
             setExpander(0b01000000,0b10100,0b10000000);
         }
         else{
@@ -115,9 +115,9 @@ unsigned char readExpander(unsigned char address, unsigned char Register){
     i2c_master_send(Register);
     i2c_master_restart();
     i2c_master_send(address|0x41);
-    unsigned char btn = i2c_master_recv();
+    unsigned char r = i2c_master_recv();
     i2c_master_ack(1);
     i2c_master_stop();
     
-    return btn;
+    return r;
 }
