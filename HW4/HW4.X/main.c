@@ -36,8 +36,8 @@
 #pragma config PMDL1WAY = OFF // allow multiple reconfigurations
 #pragma config IOL1WAY = OFF // allow multiple reconfigurations
 
-void drawletter(int x, int y, char letter);
-void drawarray(int x, int y, char* arr);
+void printletter(int x, int y, char letter);
+void printarray(int x, int y, char* arr);
 
 int main() {
 
@@ -69,9 +69,9 @@ int main() {
     char arr2[50];
     sprintf(arr1,"ABCDEFGHIJKLMNOPQRSTUVWXYZ");
     sprintf(arr2,"01234567890123456789012345");
-    drawarray(0,0,arr1);
+    printarray(0,0,arr1);
     ssd1306_update();
-    drawarray(0,8,arr2);
+    printarray(0,8,arr2);
     ssd1306_update();
     
     int i = 0;
@@ -85,7 +85,7 @@ int main() {
         LATAbits.LATA4 = !LATAbits.LATA4;
         
         sprintf(arr3,"Hello World! i = %d",i);
-        drawarray(5,16,arr3);
+        printarray(5,16,arr3);
         ssd1306_update();
         i++;
         
@@ -94,13 +94,13 @@ int main() {
         time = _CP0_GET_COUNT();
         time = 24000000/time;
         sprintf(arr4,"FPS = %.2f",time);
-        drawarray(50,24,arr4);
+        printarray(50,24,arr4);
         ssd1306_update();
     }
 }
 
 
-void drawletter(int x, int y, char letter){
+void printletter(int x, int y, char letter){
     int i,j;
     for(i=0;i<5;i++){
         for(j=0;j<8;j++){
@@ -114,10 +114,10 @@ void drawletter(int x, int y, char letter){
     }
 }
 
-void drawarray(int x, int y, char* arr){
+void printarray(int x, int y, char* arr){
     int i = 0;
     while(arr[i] != 0){
-        drawletter(x+5*i,y,arr[i]);
+        printletter(x+5*i,y,arr[i]);
         i++;
     }
 }

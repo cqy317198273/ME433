@@ -6,7 +6,7 @@
 void i2c_master_setup(void) {
     // using a large BRG to see it on the nScope, make it smaller after verifying that code works
     // look up TPGD in the datasheet
-    I2C1BRG = 1000; // I2CBRG = [1/(2*Fsck) - TPGD]*Pblck - 2 (TPGD is the Pulse Gobbler Delay)
+    I2C1BRG = 60; // I2CBRG = [1/(2*Fsck) - TPGD]*Pblck - 2 (TPGD is the Pulse Gobbler Delay)
     I2C1CONbits.ON = 1; // turn on the I2C1 module
 }
 
@@ -58,3 +58,24 @@ void i2c_master_stop(void) { // send a STOP:
         ;
     } // wait for STOP to complete
 } 
+
+void setPin(unsigned char address, unsigned char Register, unsigned char value){
+    i2c_master_start();
+    i2c_master_send(address);
+    i2c_master_send(Register);
+    i2c_master_send(value);
+    i2c_master_stop();
+}
+
+unsigned char readPin(unsigned char address, unsigned char Register){
+    i2c_master_start();
+    i2c_master_send(address);
+    i2c_master_send(Register);
+    i2c_master_restart();
+    i2c_master_send(address|0b01000001);
+    unsigned char btn = i2c_master_recv();
+    i2c_master_ack(1);
+    i2c_master_stop();
+    
+    return btn;
+}
