@@ -5,107 +5,107 @@ Optional file libmchp_peripheral_32MX170F256B.a not found
 Archive member included because of file (symbol)
 
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(memset.o)
-                              build/default/production/_ext/1482845061/ssd1306.o (memset)
+                              build/default/production/ssd1306.o (memset)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o (_bootstrap_exception_handler)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o (_bootstrap_exception_handler)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o (_on_reset)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o (_on_reset)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o (_on_bootstrap)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o (_on_bootstrap)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-nmi-handler.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o (_nmi_handler)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o (_nmi_handler)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(pic32_data_init.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o (__pic32_data_init)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o (__pic32_data_init)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(general-exception.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o (_general_exception_context)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o (_general_exception_context)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector0.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_0)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_0)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector1.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_1)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_1)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector2.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_2)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_2)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector3.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_3)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_3)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector4.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_4)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_4)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector5.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_5)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_5)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector6.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_6)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_6)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector7.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_7)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_7)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector8.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_8)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_8)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector9.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_9)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_9)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector10.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_10)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_10)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector11.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_11)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_11)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector12.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_12)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_12)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector13.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_13)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_13)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector14.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_14)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_14)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector15.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_15)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_15)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector16.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_16)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_16)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector17.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_17)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_17)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector18.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_18)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_18)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector19.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_19)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_19)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector20.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_20)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_20)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector21.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_21)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_21)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector22.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_22)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_22)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector23.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_23)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_23)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector24.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_24)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_24)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector25.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_25)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_25)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector26.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_26)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_26)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector27.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_27)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_27)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector28.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_28)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_28)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector29.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_29)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_29)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector30.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_30)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_30)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector31.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_31)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_31)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector32.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_32)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_32)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector33.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_33)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_33)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector34.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_34)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_34)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector35.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_35)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_35)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector36.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_36)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_36)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector37.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_37)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_37)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector38.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_38)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_38)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector39.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_39)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_39)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector40.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_40)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_40)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector41.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_41)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_41)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector42.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_42)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_42)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector43.o)
-                              C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o (__vector_dispatch_43)
+                              C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o (__vector_dispatch_43)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
                               c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(general-exception.o) (_general_exception_handler)
 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
@@ -114,7 +114,7 @@ c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic
 Allocating common symbols
 Common symbol       size              file
 
-ssd1306_buffer      0x200             build/default/production/_ext/1482845061/ssd1306.o
+ssd1306_buffer      0x200             build/default/production/ssd1306.o
 
 Microchip PIC32 Memory-Usage Report
 
@@ -225,14 +225,14 @@ stack                   0xa0000230         0xfdc0       64960  Reserved for stac
 
 Discarded input sections
 
- .reginfo       0x00000000       0x18 build/default/production/_ext/1482845061/IMU.o
- .reginfo       0x00000000       0x18 build/default/production/_ext/1482845061/i2c_master_noint.o
- .reginfo       0x00000000       0x18 build/default/production/_ext/1482845061/main.o
- .reginfo       0x00000000       0x18 build/default/production/_ext/1482845061/ssd1306.o
- .reginfo       0x00000000       0x18 C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o
- .reginfo       0x00000000       0x18 C:\Users\QIYANC~1\AppData\Local\Temp\ccUH4p7x.o
- .reginfo       0x00000000       0x18 C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o
- .discard       0x00000000       0xb0 C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o
+ .reginfo       0x00000000       0x18 build/default/production/i2c_master_noint.o
+ .reginfo       0x00000000       0x18 build/default/production/main.o
+ .reginfo       0x00000000       0x18 build/default/production/IMU.o
+ .reginfo       0x00000000       0x18 build/default/production/ssd1306.o
+ .reginfo       0x00000000       0x18 C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o
+ .reginfo       0x00000000       0x18 C:\Users\QIYANC~1\AppData\Local\Temp\ccPlh7hq.o
+ .reginfo       0x00000000       0x18 C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o
+ .discard       0x00000000       0xb0 C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o
  .reginfo       0x00000000       0x18 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\pic32_software_reset.o
  .reginfo       0x00000000       0x18 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX170F256B\processor.o
  .reginfo       0x00000000       0x18 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(memset.o)
@@ -309,14 +309,14 @@ configsfrs       0xbfc00bf0         0x00000010
 Linker script and memory map
 
 LOAD c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\debug-exception-return.o
-LOAD build/default/production/_ext/1482845061/IMU.o
-LOAD build/default/production/_ext/1482845061/i2c_master_noint.o
-LOAD build/default/production/_ext/1482845061/main.o
-LOAD build/default/production/_ext/1482845061/ssd1306.o
+LOAD build/default/production/i2c_master_noint.o
+LOAD build/default/production/main.o
+LOAD build/default/production/IMU.o
+LOAD build/default/production/ssd1306.o
                 0x00000001                __MPLAB_BUILD = 0x1
-LOAD C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o
-LOAD C:\Users\QIYANC~1\AppData\Local\Temp\ccUH4p7x.o
-LOAD C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o
+LOAD C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o
+LOAD C:\Users\QIYANC~1\AppData\Local\Temp\ccPlh7hq.o
+LOAD C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o
 LOAD c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\pic32_software_reset.o
                 0x00000400                PROVIDE (_min_stack_size, 0x400)
 START GROUP
@@ -341,40 +341,40 @@ END GROUP
                 0xbfc00bf0        0x4
  *(.config_BFC00BF0)
  .config_BFC00BF0
-                0xbfc00bf0        0x4 build/default/production/_ext/1482845061/main.o
+                0xbfc00bf0        0x4 build/default/production/main.o
 
 .config_BFC00BF4
                 0xbfc00bf4        0x4
  *(.config_BFC00BF4)
  .config_BFC00BF4
-                0xbfc00bf4        0x4 build/default/production/_ext/1482845061/main.o
+                0xbfc00bf4        0x4 build/default/production/main.o
 
 .config_BFC00BF8
                 0xbfc00bf8        0x4
  *(.config_BFC00BF8)
  .config_BFC00BF8
-                0xbfc00bf8        0x4 build/default/production/_ext/1482845061/main.o
+                0xbfc00bf8        0x4 build/default/production/main.o
 
 .config_BFC00BFC
                 0xbfc00bfc        0x4
  *(.config_BFC00BFC)
  .config_BFC00BFC
-                0xbfc00bfc        0x4 build/default/production/_ext/1482845061/main.o
+                0xbfc00bfc        0x4 build/default/production/main.o
                 0xbfc02000                PROVIDE (_DBG_CODE_ADDR, 0xbfc02000)
                 0x00000ff0                PROVIDE (_DBG_CODE_SIZE, 0xff0)
 
 .reset          0xbfc00000      0x178
  *(.reset)
- .reset         0xbfc00000        0x8 C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o
+ .reset         0xbfc00000        0x8 C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o
                 0xbfc00000                _reset
  *(.reset.startup)
  .reset.startup
-                0xbfc00008      0x170 C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o
+                0xbfc00008      0x170 C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o
                 0xbfc00008                _startup
 
 .bev_excpt      0xbfc00380       0x10
  *(.bev_handler)
- .bev_handler   0xbfc00380       0x10 C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o
+ .bev_handler   0xbfc00380       0x10 C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o
 
 .dbg_excpt      0xbfc00480        0x0
                 0xbfc00480                . = (. + DEFINED (_DEBUGGER)?0x8:0x0)
@@ -384,7 +384,7 @@ END GROUP
 
 .app_excpt      0x9d03f180       0x10
  *(.gen_handler)
- .gen_handler   0x9d03f180       0x10 C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o
+ .gen_handler   0x9d03f180       0x10 C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o
 
 .vector_0       0x9d03f200        0x8
  *(.vector_0)
@@ -851,7 +851,7 @@ END GROUP
 .sdata          0xa0000000        0x4
                 0xa0000000                _sdata_begin = .
  *(.sdata .sdata.* .gnu.linkonce.s.*)
- .sdata         0xa0000000        0x2 build/default/production/_ext/1482845061/ssd1306.o
+ .sdata         0xa0000000        0x2 build/default/production/ssd1306.o
                 0xa0000000                ssd1306_write
                 0xa0000001                ssd1306_read
                 0xa0000004                . = ALIGN (0x4)
@@ -878,7 +878,7 @@ END GROUP
 .bss            0xa0000004      0x200
  *(.dynbss)
  *(COMMON)
- COMMON         0xa0000004      0x200 build/default/production/_ext/1482845061/ssd1306.o
+ COMMON         0xa0000004      0x200 build/default/production/ssd1306.o
                 0xa0000004                ssd1306_buffer
                 0xa0000204                . = ALIGN ((. != 0x0)?0x4:0x1)
                 0xa0000204                . = ALIGN (0x4)
@@ -906,10 +906,10 @@ END GROUP
 
 .mdebug.abi32   0xa0000204        0x0
  *(.mdebug.abi32)
- .mdebug.abi32  0xa0000204        0x0 build/default/production/_ext/1482845061/IMU.o
- .mdebug.abi32  0xa0000204        0x0 build/default/production/_ext/1482845061/i2c_master_noint.o
- .mdebug.abi32  0xa0000204        0x0 build/default/production/_ext/1482845061/main.o
- .mdebug.abi32  0xa0000204        0x0 build/default/production/_ext/1482845061/ssd1306.o
+ .mdebug.abi32  0xa0000204        0x0 build/default/production/i2c_master_noint.o
+ .mdebug.abi32  0xa0000204        0x0 build/default/production/main.o
+ .mdebug.abi32  0xa0000204        0x0 build/default/production/IMU.o
+ .mdebug.abi32  0xa0000204        0x0 build/default/production/ssd1306.o
  .mdebug.abi32  0xa0000204        0x0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
  .mdebug.abi32  0xa0000204        0x0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
  .mdebug.abi32  0xa0000204        0x0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
@@ -957,11 +957,11 @@ END GROUP
 
 .comment        0x00000000       0x54
  *(.comment)
- .comment       0x00000000       0x3c build/default/production/_ext/1482845061/IMU.o
+ .comment       0x00000000       0x3c build/default/production/i2c_master_noint.o
                                  0x3d (size before relaxing)
- .comment       0x00000000       0x3d build/default/production/_ext/1482845061/i2c_master_noint.o
- .comment       0x00000000       0x3d build/default/production/_ext/1482845061/main.o
- .comment       0x00000000       0x3d build/default/production/_ext/1482845061/ssd1306.o
+ .comment       0x00000000       0x3d build/default/production/main.o
+ .comment       0x00000000       0x3d build/default/production/IMU.o
+ .comment       0x00000000       0x3d build/default/production/ssd1306.o
  .comment       0x0000003c       0x18 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(memset.o)
                                  0x19 (size before relaxing)
  .comment       0x00000000       0x3d c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
@@ -985,13 +985,13 @@ END GROUP
 .debug_aranges  0x00000000      0x120
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x20 build/default/production/_ext/1482845061/IMU.o
+                0x00000000       0x20 build/default/production/i2c_master_noint.o
  .debug_aranges
-                0x00000020       0x20 build/default/production/_ext/1482845061/i2c_master_noint.o
+                0x00000020       0x20 build/default/production/main.o
  .debug_aranges
-                0x00000040       0x20 build/default/production/_ext/1482845061/main.o
+                0x00000040       0x20 build/default/production/IMU.o
  .debug_aranges
-                0x00000060       0x20 build/default/production/_ext/1482845061/ssd1306.o
+                0x00000060       0x20 build/default/production/ssd1306.o
  .debug_aranges
                 0x00000080       0x20 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
  .debug_aranges
@@ -1006,48 +1006,48 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x1b91
+.debug_info     0x00000000     0x1b45
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x450 build/default/production/_ext/1482845061/IMU.o
- .debug_info    0x00000450      0x71e build/default/production/_ext/1482845061/i2c_master_noint.o
- .debug_info    0x00000b6e      0x81c build/default/production/_ext/1482845061/main.o
- .debug_info    0x0000138a      0x39a build/default/production/_ext/1482845061/ssd1306.o
- .debug_info    0x00001724       0xf4 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_info    0x00001818       0xcd c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_info    0x000018e5       0xd5 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_info    0x000019ba       0xf0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
- .debug_info    0x00001aaa       0xe7 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_info    0x00000000      0x70b build/default/production/i2c_master_noint.o
+ .debug_info    0x0000070b      0x809 build/default/production/main.o
+ .debug_info    0x00000f14      0x43d build/default/production/IMU.o
+ .debug_info    0x00001351      0x387 build/default/production/ssd1306.o
+ .debug_info    0x000016d8       0xf4 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x000017cc       0xcd c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_info    0x00001899       0xd5 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_info    0x0000196e       0xf0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_info    0x00001a5e       0xe7 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
 
 .debug_abbrev   0x00000000      0x4b7
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x10b build/default/production/_ext/1482845061/IMU.o
- .debug_abbrev  0x0000010b      0x153 build/default/production/_ext/1482845061/i2c_master_noint.o
- .debug_abbrev  0x0000025e       0xcc build/default/production/_ext/1482845061/main.o
- .debug_abbrev  0x0000032a       0xc5 build/default/production/_ext/1482845061/ssd1306.o
+ .debug_abbrev  0x00000000      0x153 build/default/production/i2c_master_noint.o
+ .debug_abbrev  0x00000153       0xcc build/default/production/main.o
+ .debug_abbrev  0x0000021f      0x10b build/default/production/IMU.o
+ .debug_abbrev  0x0000032a       0xc5 build/default/production/ssd1306.o
  .debug_abbrev  0x000003ef       0x28 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
  .debug_abbrev  0x00000417       0x28 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
  .debug_abbrev  0x0000043f       0x28 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
  .debug_abbrev  0x00000467       0x28 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
  .debug_abbrev  0x0000048f       0x28 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
 
-.debug_line     0x00000000      0x838
+.debug_line     0x00000000      0x817
  *(.debug_line)
- .debug_line    0x00000000      0x169 build/default/production/_ext/1482845061/IMU.o
- .debug_line    0x00000169      0x18a build/default/production/_ext/1482845061/i2c_master_noint.o
- .debug_line    0x000002f3      0x144 build/default/production/_ext/1482845061/main.o
- .debug_line    0x00000437       0xe8 build/default/production/_ext/1482845061/ssd1306.o
- .debug_line    0x0000051f       0xa6 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_line    0x000005c5       0x93 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_line    0x00000658       0x97 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_line    0x000006ef       0xa4 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
- .debug_line    0x00000793       0xa5 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_line    0x00000000      0x180 build/default/production/i2c_master_noint.o
+ .debug_line    0x00000180      0x13a build/default/production/main.o
+ .debug_line    0x000002ba      0x15f build/default/production/IMU.o
+ .debug_line    0x00000419       0xe5 build/default/production/ssd1306.o
+ .debug_line    0x000004fe       0xa6 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_line    0x000005a4       0x93 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_line    0x00000637       0x97 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_line    0x000006ce       0xa4 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_line    0x00000772       0xa5 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
 
 .debug_frame    0x00000000      0x3f0
  *(.debug_frame)
- .debug_frame   0x00000000       0xa4 build/default/production/_ext/1482845061/IMU.o
- .debug_frame   0x000000a4      0x15c build/default/production/_ext/1482845061/i2c_master_noint.o
- .debug_frame   0x00000200       0x2c build/default/production/_ext/1482845061/main.o
- .debug_frame   0x0000022c      0x10c build/default/production/_ext/1482845061/ssd1306.o
+ .debug_frame   0x00000000      0x15c build/default/production/i2c_master_noint.o
+ .debug_frame   0x0000015c       0x2c build/default/production/main.o
+ .debug_frame   0x00000188       0xa4 build/default/production/IMU.o
+ .debug_frame   0x0000022c      0x10c build/default/production/ssd1306.o
  .debug_frame   0x00000338       0x2c c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
  .debug_frame   0x00000364       0x20 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
  .debug_frame   0x00000384       0x20 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
@@ -1056,10 +1056,10 @@ END GROUP
 
 .debug_str      0x00000000       0x11
  *(.debug_str)
- .debug_str     0x00000000        0x0 build/default/production/_ext/1482845061/IMU.o
- .debug_str     0x00000000       0x11 build/default/production/_ext/1482845061/i2c_master_noint.o
- .debug_str     0x00000011        0x0 build/default/production/_ext/1482845061/main.o
- .debug_str     0x00000011        0x0 build/default/production/_ext/1482845061/ssd1306.o
+ .debug_str     0x00000000       0x11 build/default/production/i2c_master_noint.o
+ .debug_str     0x00000011        0x0 build/default/production/main.o
+ .debug_str     0x00000011        0x0 build/default/production/IMU.o
+ .debug_str     0x00000011        0x0 build/default/production/ssd1306.o
  .debug_str     0x00000011        0x0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
  .debug_str     0x00000011        0x0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
  .debug_str     0x00000011        0x0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
@@ -1101,13 +1101,13 @@ END GROUP
                 0x00000000       0x10
  *(.gnu.attributes)
  .gnu.attributes
-                0x00000000       0x10 build/default/production/_ext/1482845061/IMU.o
+                0x00000000       0x10 build/default/production/i2c_master_noint.o
  .gnu.attributes
-                0x00000010       0x10 build/default/production/_ext/1482845061/i2c_master_noint.o
+                0x00000010       0x10 build/default/production/main.o
  .gnu.attributes
-                0x00000020       0x10 build/default/production/_ext/1482845061/main.o
+                0x00000020       0x10 build/default/production/IMU.o
  .gnu.attributes
-                0x00000030       0x10 build/default/production/_ext/1482845061/ssd1306.o
+                0x00000030       0x10 build/default/production/ssd1306.o
  .gnu.attributes
                 0x00000040       0x10 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
  .gnu.attributes
@@ -1123,7 +1123,8 @@ START GROUP
 LOAD c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a
 LOAD c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libdebug.a
 LOAD c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a
-LOAD c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\liblega-c.a
+LOAD c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libc.a
+LOAD c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libc.a
 LOAD c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libm.a
 LOAD c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libe.a
 LOAD c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libdsp.a
@@ -1472,46 +1473,46 @@ LOAD data_init
  .data          0x00000000        0x0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\pic32_software_reset.o
 
 .bss%z111       0x00000000        0x0
- .bss           0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o
+ .bss           0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o
 
 .data%z112      0x00000000        0x0
- .data          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o
+ .data          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o
 
 .bss%z113       0x00000000        0x0
- .bss           0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccUH4p7x.o
+ .bss           0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccPlh7hq.o
 
 .data%z114      0x00000000        0x0
- .data          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccUH4p7x.o
+ .data          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccPlh7hq.o
 
 .bss%z115       0x00000000        0x0
- .bss           0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o
+ .bss           0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o
 
 .data%z116      0x00000000        0x0
- .data          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o
+ .data          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o
 
 .bss%z117       0x00000000        0x0
- .bss           0x00000000        0x0 build/default/production/_ext/1482845061/ssd1306.o
+ .bss           0x00000000        0x0 build/default/production/ssd1306.o
 
 .data%z118      0x00000000        0x0
- .data          0x00000000        0x0 build/default/production/_ext/1482845061/ssd1306.o
+ .data          0x00000000        0x0 build/default/production/ssd1306.o
 
 .bss%z119       0x00000000        0x0
- .bss           0x00000000        0x0 build/default/production/_ext/1482845061/main.o
+ .bss           0x00000000        0x0 build/default/production/IMU.o
 
 .data%z120      0x00000000        0x0
- .data          0x00000000        0x0 build/default/production/_ext/1482845061/main.o
+ .data          0x00000000        0x0 build/default/production/IMU.o
 
 .bss%z121       0x00000000        0x0
- .bss           0x00000000        0x0 build/default/production/_ext/1482845061/i2c_master_noint.o
+ .bss           0x00000000        0x0 build/default/production/main.o
 
 .data%z122      0x00000000        0x0
- .data          0x00000000        0x0 build/default/production/_ext/1482845061/i2c_master_noint.o
+ .data          0x00000000        0x0 build/default/production/main.o
 
 .bss%z123       0x00000000        0x0
- .bss           0x00000000        0x0 build/default/production/_ext/1482845061/IMU.o
+ .bss           0x00000000        0x0 build/default/production/i2c_master_noint.o
 
 .data%z124      0x00000000        0x0
- .data          0x00000000        0x0 build/default/production/_ext/1482845061/IMU.o
+ .data          0x00000000        0x0 build/default/production/i2c_master_noint.o
 
 .bss%z125       0x00000000        0x0
  .bss           0x00000000        0x0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\debug-exception-return.o
@@ -1526,7 +1527,7 @@ LOAD data_init
                 0xbfc00480                __DbgExecReturn
 
 .text           0x9d000000      0xb04
- .text          0x9d000000      0x654 build/default/production/_ext/1482845061/ssd1306.o
+ .text          0x9d000000      0x654 build/default/production/ssd1306.o
                 0x9d000000                ssd1306_setup
                 0x9d000174                ssd1306_command
                 0x9d0001e0                ssd1306_update
@@ -1534,14 +1535,14 @@ LOAD data_init
                 0x9d000418                ssd1306_clear
                 0x9d000458                drawletter
                 0x9d0005b4                drawarray
- .text          0x9d000654      0x4b0 build/default/production/_ext/1482845061/IMU.o
+ .text          0x9d000654      0x4b0 build/default/production/IMU.o
                 0x9d000654                imu_setup
                 0x9d000754                imu_read
                 0x9d0008bc                bar_x
                 0x9d0009e0                bar_y
 
 .text           0x9d000b04      0x484
- .text          0x9d000b04      0x484 build/default/production/_ext/1482845061/i2c_master_noint.o
+ .text          0x9d000b04      0x484 build/default/production/i2c_master_noint.o
                 0x9d000b04                i2c_master_setup
                 0x9d000b44                i2c_master_start
                 0x9d000b90                i2c_master_restart
@@ -1554,11 +1555,11 @@ LOAD data_init
                 0x9d000e78                i2c_master_read_multiple
 
 .rodata         0x9d000f88      0x3c0
- .rodata        0x9d000f88      0x1e0 build/default/production/_ext/1482845061/main.o
- .rodata        0x9d001168      0x1e0 build/default/production/_ext/1482845061/ssd1306.o
+ .rodata        0x9d000f88      0x1e0 build/default/production/main.o
+ .rodata        0x9d001168      0x1e0 build/default/production/ssd1306.o
 
 .text           0x9d001348      0x164
- .text          0x9d001348      0x164 build/default/production/_ext/1482845061/main.o
+ .text          0x9d001348      0x164 build/default/production/main.o
                 0x9d001348                main
 
 .text.general_exception
@@ -1576,7 +1577,7 @@ LOAD data_init
 .text.main_entry
                 0x9d0016b4       0x54
  .text.main_entry
-                0x9d0016b4       0x54 C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o
+                0x9d0016b4       0x54 C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o
                 0x9d0016e8                __crt0_exit
 
 .text._bootstrap_exception_handler
@@ -1774,13 +1775,13 @@ LOAD data_init
  .text          0x00000000        0x0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX170F256B\processor.o
 
 .text%z178      0x00000000        0x0
- .text          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccGbW7C2.o
+ .text          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\cc8qPODs.o
 
 .text%z179      0x00000000        0x0
- .text          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccUH4p7x.o
+ .text          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccPlh7hq.o
 
 .text%z180      0x00000000        0x0
- .text          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\cckIFkdr.o
+ .text          0x00000000        0x0 C:\Users\QIYANC~1\AppData\Local\Temp\ccVmI0qE.o
 
 .text%z181      0x00000000        0x0
  .text          0x00000000        0x0 c:/users/qiyanchen/nu32/xc32/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\debug-exception-return.o

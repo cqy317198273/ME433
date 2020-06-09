@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../../HW6new/HW6.X/IMU.c ../../HW6new/HW6.X/i2c_master_noint.c ../../HW6new/HW6.X/main.c ../../HW6new/HW6.X/ssd1306.c
+SOURCEFILES_QUOTED_IF_SPACED=i2c_master_noint.c main.c IMU.c ssd1306.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1482845061/IMU.o ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o ${OBJECTDIR}/_ext/1482845061/main.o ${OBJECTDIR}/_ext/1482845061/ssd1306.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1482845061/IMU.o.d ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d ${OBJECTDIR}/_ext/1482845061/main.o.d ${OBJECTDIR}/_ext/1482845061/ssd1306.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/i2c_master_noint.o ${OBJECTDIR}/main.o ${OBJECTDIR}/IMU.o ${OBJECTDIR}/ssd1306.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/i2c_master_noint.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/IMU.o.d ${OBJECTDIR}/ssd1306.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1482845061/IMU.o ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o ${OBJECTDIR}/_ext/1482845061/main.o ${OBJECTDIR}/_ext/1482845061/ssd1306.o
+OBJECTFILES=${OBJECTDIR}/i2c_master_noint.o ${OBJECTDIR}/main.o ${OBJECTDIR}/IMU.o ${OBJECTDIR}/ssd1306.o
 
 # Source Files
-SOURCEFILES=../../HW6new/HW6.X/IMU.c ../../HW6new/HW6.X/i2c_master_noint.c ../../HW6new/HW6.X/main.c ../../HW6new/HW6.X/ssd1306.c
+SOURCEFILES=i2c_master_noint.c main.c IMU.c ssd1306.c
 
 
 
@@ -107,54 +107,54 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1482845061/IMU.o: ../../HW6new/HW6.X/IMU.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/IMU.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/IMU.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/IMU.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/IMU.o.d" -o ${OBJECTDIR}/_ext/1482845061/IMU.o ../../HW6new/HW6.X/IMU.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+${OBJECTDIR}/i2c_master_noint.o: i2c_master_noint.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/i2c_master_noint.o.d 
+	@${RM} ${OBJECTDIR}/i2c_master_noint.o 
+	@${FIXDEPS} "${OBJECTDIR}/i2c_master_noint.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/i2c_master_noint.o.d" -o ${OBJECTDIR}/i2c_master_noint.o i2c_master_noint.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
 	
-${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o: ../../HW6new/HW6.X/i2c_master_noint.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d" -o ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o ../../HW6new/HW6.X/i2c_master_noint.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/main.o.d 
+	@${RM} ${OBJECTDIR}/main.o 
+	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/main.o.d" -o ${OBJECTDIR}/main.o main.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
 	
-${OBJECTDIR}/_ext/1482845061/main.o: ../../HW6new/HW6.X/main.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/main.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/main.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/main.o.d" -o ${OBJECTDIR}/_ext/1482845061/main.o ../../HW6new/HW6.X/main.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+${OBJECTDIR}/IMU.o: IMU.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/IMU.o.d 
+	@${RM} ${OBJECTDIR}/IMU.o 
+	@${FIXDEPS} "${OBJECTDIR}/IMU.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/IMU.o.d" -o ${OBJECTDIR}/IMU.o IMU.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
 	
-${OBJECTDIR}/_ext/1482845061/ssd1306.o: ../../HW6new/HW6.X/ssd1306.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/ssd1306.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/ssd1306.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/ssd1306.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/ssd1306.o.d" -o ${OBJECTDIR}/_ext/1482845061/ssd1306.o ../../HW6new/HW6.X/ssd1306.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+${OBJECTDIR}/ssd1306.o: ssd1306.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/ssd1306.o.d 
+	@${RM} ${OBJECTDIR}/ssd1306.o 
+	@${FIXDEPS} "${OBJECTDIR}/ssd1306.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/ssd1306.o.d" -o ${OBJECTDIR}/ssd1306.o ssd1306.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
 	
 else
-${OBJECTDIR}/_ext/1482845061/IMU.o: ../../HW6new/HW6.X/IMU.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/IMU.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/IMU.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/IMU.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/IMU.o.d" -o ${OBJECTDIR}/_ext/1482845061/IMU.o ../../HW6new/HW6.X/IMU.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+${OBJECTDIR}/i2c_master_noint.o: i2c_master_noint.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/i2c_master_noint.o.d 
+	@${RM} ${OBJECTDIR}/i2c_master_noint.o 
+	@${FIXDEPS} "${OBJECTDIR}/i2c_master_noint.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/i2c_master_noint.o.d" -o ${OBJECTDIR}/i2c_master_noint.o i2c_master_noint.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
 	
-${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o: ../../HW6new/HW6.X/i2c_master_noint.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d" -o ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o ../../HW6new/HW6.X/i2c_master_noint.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/main.o.d 
+	@${RM} ${OBJECTDIR}/main.o 
+	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/main.o.d" -o ${OBJECTDIR}/main.o main.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
 	
-${OBJECTDIR}/_ext/1482845061/main.o: ../../HW6new/HW6.X/main.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/main.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/main.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/main.o.d" -o ${OBJECTDIR}/_ext/1482845061/main.o ../../HW6new/HW6.X/main.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+${OBJECTDIR}/IMU.o: IMU.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/IMU.o.d 
+	@${RM} ${OBJECTDIR}/IMU.o 
+	@${FIXDEPS} "${OBJECTDIR}/IMU.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/IMU.o.d" -o ${OBJECTDIR}/IMU.o IMU.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
 	
-${OBJECTDIR}/_ext/1482845061/ssd1306.o: ../../HW6new/HW6.X/ssd1306.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/ssd1306.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1482845061/ssd1306.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/ssd1306.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/ssd1306.o.d" -o ${OBJECTDIR}/_ext/1482845061/ssd1306.o ../../HW6new/HW6.X/ssd1306.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+${OBJECTDIR}/ssd1306.o: ssd1306.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/ssd1306.o.d 
+	@${RM} ${OBJECTDIR}/ssd1306.o 
+	@${FIXDEPS} "${OBJECTDIR}/ssd1306.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/ssd1306.o.d" -o ${OBJECTDIR}/ssd1306.o ssd1306.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
 	
 endif
 
@@ -169,12 +169,12 @@ endif
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
 dist/${CND_CONF}/${IMAGE_TYPE}/HW6.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    
 	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_CC} $(MP_EXTRA_LD_PRE) -g   -mprocessor=$(MP_PROCESSOR_OPTION)  -o dist/${CND_CONF}/${IMAGE_TYPE}/HW6.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX} ${OBJECTFILES_QUOTED_IF_SPACED}          -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)   -mreserve=data@0x0:0x1FC -mreserve=boot@0x1FC00490:0x1FC00BEF  -Wl,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_LD_POST)$(MP_LINKER_FILE_OPTION),--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1,-D=__DEBUG_D,--no-code-in-dinit,--no-dinit-in-serial-mem,-Map="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map",--memorysummary,dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml -mdfp=${DFP_DIR}
+	${MP_CC} $(MP_EXTRA_LD_PRE) -g   -mprocessor=$(MP_PROCESSOR_OPTION)  -o dist/${CND_CONF}/${IMAGE_TYPE}/HW6.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX} ${OBJECTFILES_QUOTED_IF_SPACED}          -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)   -mreserve=data@0x0:0x1FC -mreserve=boot@0x1FC00490:0x1FC00BEF  -Wl,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_LD_POST)$(MP_LINKER_FILE_OPTION),--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1,-D=__DEBUG_D,--no-code-in-dinit,--no-dinit-in-serial-mem,-Map="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map",--memorysummary,dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml -mdfp=${DFP_DIR}
 	
 else
 dist/${CND_CONF}/${IMAGE_TYPE}/HW6.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   
 	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_CC} $(MP_EXTRA_LD_PRE)  -mprocessor=$(MP_PROCESSOR_OPTION)  -o dist/${CND_CONF}/${IMAGE_TYPE}/HW6.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX} ${OBJECTFILES_QUOTED_IF_SPACED}          -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -Wl,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_LD_POST)$(MP_LINKER_FILE_OPTION),--no-code-in-dinit,--no-dinit-in-serial-mem,-Map="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map",--memorysummary,dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml -mdfp=${DFP_DIR}
+	${MP_CC} $(MP_EXTRA_LD_PRE)  -mprocessor=$(MP_PROCESSOR_OPTION)  -o dist/${CND_CONF}/${IMAGE_TYPE}/HW6.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX} ${OBJECTFILES_QUOTED_IF_SPACED}          -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -Wl,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_LD_POST)$(MP_LINKER_FILE_OPTION),--no-code-in-dinit,--no-dinit-in-serial-mem,-Map="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map",--memorysummary,dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml -mdfp=${DFP_DIR}
 	${MP_CC_DIR}\\xc32-bin2hex dist/${CND_CONF}/${IMAGE_TYPE}/HW6.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX} 
 endif
 
