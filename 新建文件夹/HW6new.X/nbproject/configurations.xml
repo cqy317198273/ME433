@@ -4,14 +4,14 @@
     <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
       <itemPath>font.h</itemPath>
       <itemPath>i2c_master_noint.h</itemPath>
-      <itemPath>ssd1306.h</itemPath>
       <itemPath>IMU.h</itemPath>
+      <itemPath>ssd1306.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
-      <itemPath>main.c</itemPath>
       <itemPath>i2c_master_noint.c</itemPath>
-      <itemPath>ssd1306.c</itemPath>
       <itemPath>IMU.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>ssd1306.c</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript" displayName="链接器文件" projectFiles="true">
     </logicalFolder>

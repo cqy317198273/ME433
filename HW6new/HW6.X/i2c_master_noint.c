@@ -79,3 +79,23 @@ unsigned char readPin(unsigned char address, unsigned char Register){
     
     return btn;
 }
+
+void i2c_master_read_multiple(unsigned char address, unsigned char Register, unsigned char * data, int length){
+    int i;
+    
+    i2c_master_start();
+    i2c_master_send(address);
+    i2c_master_send(Register);
+    i2c_master_restart();
+    i2c_master_send(address|0b00000001);
+    for(i=0;i<length;i++){
+        data[i] = i2c_master_recv();
+        if(i != length-1){
+            i2c_master_ack(0);
+        }
+        else{
+            i2c_master_ack(1);
+        }
+    }
+    i2c_master_stop();
+}

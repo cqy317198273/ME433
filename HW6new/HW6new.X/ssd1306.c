@@ -3,6 +3,7 @@
 #include <string.h> // for memset
 #include <xc.h> // for the core timer delay
 #include "ssd1306.h"
+#include "font.h"
 
 unsigned char ssd1306_write = 0b01111000; // i2c address
 unsigned char ssd1306_read = 0b01111001; // i2c address
@@ -86,4 +87,26 @@ void ssd1306_drawPixel(unsigned char x, unsigned char y, unsigned char color) {
 // zero every pixel value
 void ssd1306_clear() {
     memset(ssd1306_buffer, 0, 512); // make every bit a 0, memset in string.h
+}
+
+void drawletter(int x, int y, char letter){
+    int i,j;
+    for(i=0;i<5;i++){
+        for(j=0;j<8;j++){
+            if(((ASCII[letter-0x20][i] >> j) & 1) == 1){
+                ssd1306_drawPixel(x+i, y+j, 1);
+            }
+            else{
+                ssd1306_drawPixel(x+i, y+j, 0);
+            }
+        }
+    }
+}
+
+void drawarray(int x, int y, char* arr){
+    int i = 0;
+    while(arr[i] != 0){
+        drawletter(x+5*i,y,arr[i]);
+        i++;
+    }
 }

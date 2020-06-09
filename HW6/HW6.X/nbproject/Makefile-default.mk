@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=
+SOURCEFILES_QUOTED_IF_SPACED=../../HW6new/HW6.X/IMU.c ../../HW6new/HW6.X/i2c_master_noint.c ../../HW6new/HW6.X/main.c ../../HW6new/HW6.X/ssd1306.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=
-POSSIBLE_DEPFILES=
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1482845061/IMU.o ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o ${OBJECTDIR}/_ext/1482845061/main.o ${OBJECTDIR}/_ext/1482845061/ssd1306.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1482845061/IMU.o.d ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d ${OBJECTDIR}/_ext/1482845061/main.o.d ${OBJECTDIR}/_ext/1482845061/ssd1306.o.d
 
 # Object Files
-OBJECTFILES=
+OBJECTFILES=${OBJECTDIR}/_ext/1482845061/IMU.o ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o ${OBJECTDIR}/_ext/1482845061/main.o ${OBJECTDIR}/_ext/1482845061/ssd1306.o
 
 # Source Files
-SOURCEFILES=
+SOURCEFILES=../../HW6new/HW6.X/IMU.c ../../HW6new/HW6.X/i2c_master_noint.c ../../HW6new/HW6.X/main.c ../../HW6new/HW6.X/ssd1306.c
 
 
 
@@ -107,7 +107,55 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
+${OBJECTDIR}/_ext/1482845061/IMU.o: ../../HW6new/HW6.X/IMU.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/IMU.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/IMU.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/IMU.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/IMU.o.d" -o ${OBJECTDIR}/_ext/1482845061/IMU.o ../../HW6new/HW6.X/IMU.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+	
+${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o: ../../HW6new/HW6.X/i2c_master_noint.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d" -o ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o ../../HW6new/HW6.X/i2c_master_noint.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+	
+${OBJECTDIR}/_ext/1482845061/main.o: ../../HW6new/HW6.X/main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/main.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/main.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/main.o.d" -o ${OBJECTDIR}/_ext/1482845061/main.o ../../HW6new/HW6.X/main.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+	
+${OBJECTDIR}/_ext/1482845061/ssd1306.o: ../../HW6new/HW6.X/ssd1306.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/ssd1306.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/ssd1306.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/ssd1306.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/ssd1306.o.d" -o ${OBJECTDIR}/_ext/1482845061/ssd1306.o ../../HW6new/HW6.X/ssd1306.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+	
 else
+${OBJECTDIR}/_ext/1482845061/IMU.o: ../../HW6new/HW6.X/IMU.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/IMU.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/IMU.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/IMU.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/IMU.o.d" -o ${OBJECTDIR}/_ext/1482845061/IMU.o ../../HW6new/HW6.X/IMU.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+	
+${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o: ../../HW6new/HW6.X/i2c_master_noint.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o.d" -o ${OBJECTDIR}/_ext/1482845061/i2c_master_noint.o ../../HW6new/HW6.X/i2c_master_noint.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+	
+${OBJECTDIR}/_ext/1482845061/main.o: ../../HW6new/HW6.X/main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/main.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/main.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/main.o.d" -o ${OBJECTDIR}/_ext/1482845061/main.o ../../HW6new/HW6.X/main.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+	
+${OBJECTDIR}/_ext/1482845061/ssd1306.o: ../../HW6new/HW6.X/ssd1306.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1482845061" 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/ssd1306.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1482845061/ssd1306.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1482845061/ssd1306.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1482845061/ssd1306.o.d" -o ${OBJECTDIR}/_ext/1482845061/ssd1306.o ../../HW6new/HW6.X/ssd1306.c    -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp=${DFP_DIR}
+	
 endif
 
 # ------------------------------------------------------------------------------------

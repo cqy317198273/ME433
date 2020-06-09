@@ -1,10 +1,10 @@
 #include<xc.h>           // processor SFR definitions
 #include<sys/attribs.h>  // __ISR macro
 #include "i2c_master_noint.h"
-#include "imu.h"
-#include "font.h"
 #include "ssd1306.h"
 #include <stdio.h>
+#include "IMU.h"
+#include "font.h"
 
 // DEVCFG0
 #pragma config DEBUG = OFF // disable debugging

@@ -1,4 +1,4 @@
-#include "imu.h"
+#include "IMU.h"
 #include "i2c_master_noint.h"
 #include "ssd1306.h"
 

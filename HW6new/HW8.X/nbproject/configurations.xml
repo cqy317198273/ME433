@@ -10,18 +10,7 @@
     <logicalFolder name="ExternalFiles" displayName="重要文件" projectFiles="false">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <itemPath>../../HW6new/HW6.X/IMU.c</itemPath>
-    <itemPath>../../HW6new/HW6.X/IMU.h</itemPath>
-    <itemPath>../../HW6new/HW6.X/font.h</itemPath>
-    <itemPath>../../HW6new/HW6.X/i2c_master_noint.c</itemPath>
-    <itemPath>../../HW6new/HW6.X/i2c_master_noint.h</itemPath>
-    <itemPath>../../HW6new/HW6.X/main.c</itemPath>
-    <itemPath>../../HW6new/HW6.X/ssd1306.c</itemPath>
-    <itemPath>../../HW6new/HW6.X/ssd1306.h</itemPath>
   </logicalFolder>
-  <sourceRootList>
-    <Elem>../../HW6new/HW6.X</Elem>
-  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="default" type="2">
