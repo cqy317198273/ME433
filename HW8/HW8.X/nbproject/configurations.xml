@@ -2,18 +2,16 @@
 <configurationDescriptor version="65">
   <logicalFolder name="root" displayName="root" projectFiles="true">
     <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
-      <itemPath>font.h</itemPath>
-      <itemPath>i2c_master_noint.h</itemPath>
       <itemPath>ssd1306.h</itemPath>
-      <itemPath>ws2812b.h</itemPath>
-      <itemPath>ADC.h</itemPath>
+      <itemPath>i2c_master_noint.h</itemPath>
+      <itemPath>font.h</itemPath>
+      <itemPath>rtcc.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
+      <itemPath>ssd1306.c</itemPath>
       <itemPath>i2c_master_noint.c</itemPath>
       <itemPath>main.c</itemPath>
-      <itemPath>ssd1306.c</itemPath>
-      <itemPath>ws2812.c</itemPath>
-      <itemPath>ADC.c</itemPath>
+      <itemPath>rtcc.c</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript" displayName="链接器文件" projectFiles="true">
     </logicalFolder>
