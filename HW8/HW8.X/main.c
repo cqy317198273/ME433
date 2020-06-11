@@ -58,8 +58,8 @@ int main() {
     i2c_master_setup(); 
     ssd1306_setup();
     
-    unsigned long time = 0x21271000;
-    unsigned long date = 0x20060202;
+    unsigned long time = 0x23231000;
+    unsigned long date = 0x20061003;
     rtcc_setup(time, date);
     
     rtccTime t;
